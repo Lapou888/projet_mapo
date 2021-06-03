@@ -1,0 +1,203 @@
+/*reset CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*base*/
+body {
+	background-color: #45b5df;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*Bannière d'icônes*/
+
+a{
+	text-decoration: none;
+	color: rgb(246, 232, 255)
+}
+
+header {
+	background-color: #0e669d;
+	height: 68px;
+	border-radius: 0 0 15px 15px;
+}
+
+#icones{
+    display: flex;
+	justify-content: space-around;
+	text-align: center;
+  }
+
+#icones img{
+	width: 50px;
+	height: 50px;
+  }
+
+#icones h2{
+	margin-top: -3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(246, 232, 255);
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+/*Page d'accueil avec les deux jeux*/
+.choix{
+	background-color: #0e669d;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 75%;
+	margin: auto;
+	margin-top: 20px;
+	height: 62px;
+}
+
+#jeux{
+	display: flex;
+	justify-content: space-between;
+	margin-left: 3px;
+	margin-right: 3px;
+}
+
+.mole, .astro{
+	height: 220px;
+	width: 150px;
+	text-align: center;
+	text-decoration: none;
+	background-color: #0e669d;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	margin: auto;
+	margin-top: 20px;
+	padding-top: 15px;
+}
+
+.choix h3{
+	font-size: 1.5em;
+	text-align: center;
+	font-weight: bold;
+}
+
+#jeux h3{
+	text-transform: uppercase;
+}
+
+#jeux p{
+	margin-top: 15px;
+	font-size: 0.9em;
+}
+
+.astro img{
+	width: 90%;
+	margin-top: 34px;
+	height: 82px;
+}
+
+.mole img{
+	width: 90%;
+	height: 82px;
+	margin-top: 10px;
+}
+
+/*Page connexion*/
+
+.intro_connect{
+	text-align: center;
+	font-size: 1.5em;
+	background-color: #0e669d;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.connect{
+	text-align: center;
+	font-size: 1.4em;
+	background-color: #0e669d;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 55%;
+	margin: auto;
+	margin-top: 40px;
+}
+
+.form_connect{
+	text-align: center;
+	margin-top: 10px;
+	border-radius: 20px;
+}
+
+.input_connect{
+	border-radius: 20px;
+	border: none;
+	height: 17px;
+	width: 50%;
+	text-align: center;
+}
+
+#form_connect input{
+	margin-top: 0.8rem;
+	height: 20px;
+}
+
+.button_connect{
+	border-radius: 20px;
+	background-color: #0e669d;
+	width: 15%;
+	height: 20px;
+	border: none;
+	color: rgb(246, 232, 255);
+	margin-top: 10px;
+}
+
+.form_connect + p{
+	text-align: center;
+	color: rgb(246, 232, 255);
+	margin-top: 20px;
+	font-weight: bold;
+	text-transform: uppercase;
+}
+
+.inscription{
+	text-align: center;
+	font-size: 1.4em;
+	background-color: #0e669d;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 55%;
+	margin: auto;
+	margin-top: 20px;
+}
+
+/* Page d'inscription */
+
+.inscription2{
+	margin-top: 60px;
+}
+
+.form_inscription{
+	margin-top: 30px;
+}
+
+.check_cgu{
+	font-size: 12px;
+	font-weight: 550;
+}
+
+.button_inscritpion{
+	margin-top: 20px;
+}
+
+#form_inscription input{
+	margin-top: 1rem;
+	height: 20px;
+}

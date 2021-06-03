@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="fr">
+<head>
+  <meta charset="utf-8">
+  <title>Mapo</title>
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="script_astro.js"></script>
+</head>
+<body>
+  <main>
+    <div class="intro_connect">
+		<p>
+			Super!<br>
+			Demande à un<br>adulte de t'aider
+		</p>
+	</div>
+	<div class="inscription inscription2">
+		<p>
+			Inscris-toi
+		</p>
+	</div>
+	<form action="traitement.php" method="post" class="form_connect form_inscription" id="form_inscription">
+		<label for="pseudo"></label>
+		<input class="input_connect" type="text" name="pseudo" id="pseudo" placeholder="Pseudo" required>
+		<label for="email"></label>
+		<input class="input_connect" type="email" name="email" id="email" placeholder="E-mail" required>
+		<label for="mdp"></label>
+		<input class="input_connect" type="password" name="mdp" placeholder="Mot de passe" id="mdp" required>
+		<div>
+		<input type="checkbox" id="cgu" name="cgu" required>
+		<label for="cgu" class="check_cgu">J'accepte blablabla</label>
+		</div>
+		<div class="button_inscritpion">
+		<input class="button_connect" type="submit" value="Go!">
+		</div>
+	</form>
+  </main>
+</body>
+</html>

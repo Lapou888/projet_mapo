@@ -1,0 +1,72 @@
+/*reset CSS*/
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+img{
+	max-width: 100%;
+}
+
+/*base*/
+body {
+	background-color: #742184;
+	font-family: 'Quicksand', sans-serif;
+}
+
+/*Bannière d'icônes*/
+header {
+	background-color: #391d7b;
+	height: 68px;
+	border-radius: 0 0 15px 15px;
+}
+
+#icones{
+    display: flex;
+	justify-content: space-around;
+	text-align: center;
+  }
+
+#icones img{
+	width: 50px;
+	height: 50px;
+  }
+
+#icones h2{
+	margin-top: -3px;
+	text-transform: uppercase;
+	text-decoration: none;
+	color: rgb(246, 232, 255);
+	font-size: 0.7em;
+	font-weight: bold;
+}
+
+/*Page d'accueil jeu Astromapo*/
+.intro{
+	text-align: center;
+	font-size: 1.7em;
+	background-color: #391d7b;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 75%;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.play{
+	text-align: center;
+	background-color: #391d7b;
+	color: rgb(246, 232, 255);
+	border-radius: 20px;
+	width: 100px;
+	height: 100px;
+	margin: auto;
+	margin-top: 50px;
+}
+
+.play img{
+	width: 75px;
+	height: 75px;
+	margin-top: 11px;
+}
